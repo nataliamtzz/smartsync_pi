@@ -23,9 +23,9 @@ warnings.filterwarnings("ignore", message="I2C frequency is not settable in pyth
 
 dynamodb = boto3.resource(
 	'dynamodb',
-	aws_access_key_id='AKIARHJJNDFNZC2VBOGU',
-	aws_secret_access_key='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',
-	region_name='us-east-1'
+	aws_access_key_id='...',
+	aws_secret_access_key='...',
+	region_name='...'
 )
 table = dynamodb.Table('SmartSync')
 
