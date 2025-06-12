@@ -10,12 +10,6 @@ GPIO.setup(17, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
 # Initialize DynamoDB connection
 dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
-#dynamodb = boto3.resource(
-   # 'dynamodb',
-   # aws_access_key_id='AKIARHJJNDFNZC2VBOGU',
-   # aws_secret_access_key='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',
-   # region_name='us-east-1'
-#)
 table = dynamodb.Table('ResetRecords')
 
 def upload_to_dynamodb():
