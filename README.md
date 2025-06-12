@@ -1,2 +1,3 @@
 # smartsync_pi
-Code for Smart Sync system to program raspberry pi
+
+This code allows you to program a microcontroller (in this case a raspberry pi 4b) to track data from a thermal camera, PIR sensor, and a reset button. 
